@@ -1,4 +1,4 @@
-package interfaces;
+package _04_OOPs._05_Interfaces;
 
 public class ElectricCar implements CarControls {
     @Override

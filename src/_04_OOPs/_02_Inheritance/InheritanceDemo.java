@@ -1,4 +1,4 @@
-package Inheritance;
+ package _04_OOPs._02_Inheritance ;
 
 public class InheritanceDemo {
     public static void main(String[] args) {

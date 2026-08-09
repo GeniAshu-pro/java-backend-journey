@@ -1,4 +1,4 @@
-package basic_point;
+package _01_Java_Fundamentals;
 
 import java.util.Scanner;
 

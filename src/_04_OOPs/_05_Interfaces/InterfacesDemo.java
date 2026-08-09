@@ -1,4 +1,4 @@
-package interfaces;
+package _04_OOPs._05_Interfaces;
 
 public class InterfacesDemo {
     public static void main(String[] args) {

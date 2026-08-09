@@ -1,4 +1,4 @@
-package DemoclassesObjs;
+package _03_Classes_Objs;
 
 public class SendsToF_User {
     public static void main(String[] args) {

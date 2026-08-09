@@ -1,6 +1,6 @@
-package basic_point;
+package _01_Java_Fundamentals;
 
-import java.lang.classfile.instruction.SwitchCase;
+
 import java.util.Scanner;
 
 public class practiciing {

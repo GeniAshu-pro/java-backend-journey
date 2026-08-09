@@ -1,4 +1,4 @@
-package DemoclassesObjs;
+package _03_Classes_Objs;
 
 public class ShoesEntity {
     private String id;

@@ -1,7 +1,7 @@
 package looseCouplingDemo;
 
 public class UserServices {
-    NotificationServices notificationServices;
+     public NotificationServices notificationServices;
 
     public UserServices(NotificationServices notificationServices) {
         this.notificationServices = notificationServices;

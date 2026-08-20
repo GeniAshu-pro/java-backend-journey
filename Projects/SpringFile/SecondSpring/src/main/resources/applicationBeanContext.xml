@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="myBean" class="com.example.demo.GreetingService">
+    </bean>
+    <bean id="EmailNotificationService" class="com.example.looseCouplingDemo.EmailNotificationService">
+    </bean>
+    <bean id="UserServices" class="com.example.looseCouplingDemo.UserServices"/>
+</beans>
+<!--        yaha yeh property tag yeh(yeh setter call karta hai)setter injection ko  perform kar raha hai -->
+<!--        <property name="notificationServices" ref="EmailNotificationService"/>-->
+<!--        agar constructor ke through krna hai use:<constructor arg then ref write there whatever services using For exm: In my case I'll using EmailNotificationServices  -->
+<!--        <constructor-arg ref="EmailNotificationService"/>-->
+<!--    </bean>-->
+
+
+

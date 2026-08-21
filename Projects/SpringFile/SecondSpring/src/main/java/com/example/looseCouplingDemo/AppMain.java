@@ -10,8 +10,7 @@ public class AppMain {
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
       UserServices userServices= (UserServices) context.getBean("UserServices");
       userServices.notifyUser("Hello,bro");
-//      EmailNotificationService emailNotificationService =(EmailNotificationService)context.getBean("EmailNotificationService");
-//      emailNotificationService.send("hello Spring");
+
 
     }
 }

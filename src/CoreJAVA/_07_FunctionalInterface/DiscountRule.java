@@ -3,3 +3,4 @@ package _07_FunctionalInterface;
 interface DiscountRule {
     double apply(double price);
 }
+

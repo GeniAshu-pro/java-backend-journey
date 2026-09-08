@@ -1,5 +1,7 @@
 package _07_FunctionalInterface;
 
+import java.util.function.Function;
+
 public class Main {
     public static void main(String[] args) {
         DiscountRule regularCustomer =
@@ -12,6 +14,10 @@ public class Main {
         System.out.println(regularCustomer.apply(1000));
         System.out.println(premiumCustomer.apply(1000));
         System.out.println(festivalSale.apply(1000));
+
+
+        // function Interface
+
 
     }
 }

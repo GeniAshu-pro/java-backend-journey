@@ -1,4 +1,4 @@
-package _07_FunctionalInterface.functionInterface;
+package _07_FunctionalInterface._01_functionInterface;
 
 //import static _07_FunctionalInterface.functionInterface.function.*;
 
